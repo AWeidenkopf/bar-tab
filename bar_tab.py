@@ -17,3 +17,6 @@ class Tab:
     self.total = 0
     self.items = []
 
+  def add(self, item):
+    self.items.append(item)
+    self.total += self.menu[item]
