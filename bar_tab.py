@@ -1,6 +1,3 @@
-from tkinter import Menu
-
-
 class Tab:
 
   menu = {
